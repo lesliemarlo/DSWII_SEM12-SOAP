@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.11.13 a las 12:45:55 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/persona-service">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.dswii.u02.t05.persona_service"/>
+    </schemaBindings>
+    <bindings scd="tns:GetPersonaRequest">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.persona_service.GetPersonaRequest"/>
+    </bindings>
+    <bindings scd="tns:GetPersonaResponse">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.persona_service.GetPersonaResponse"/>
+    </bindings>
+    <bindings scd="~tns:Persona">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.persona_service.Persona"/>
+    </bindings>
+  </bindings>
+</bindings>
+

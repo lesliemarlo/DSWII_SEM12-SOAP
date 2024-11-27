@@ -1,0 +1,33 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://t05.u02.dswii.cibertec.edu.pe/producto-service"
+           xmlns="http://t05.u02.dswii.cibertec.edu.pe/producto-service"
+           elementFormDefault="qualified">
+
+    <!-- Definir el tipo de Producto -->
+    <xs:complexType name="Producto"> 
+        <xs:sequence>
+            <xs:element name="id" type="xs:int"/>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="precio" type="xs:string"/>
+            <xs:element name="cantidad" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Definir el elemento para la solicitud (Request) -->
+    <xs:element name="GetProductoRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Definir el elemento para la respuesta (Response) -->
+    <xs:element name="GetProductoResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="producto" type="Producto"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

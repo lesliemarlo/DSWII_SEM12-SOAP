@@ -1,0 +1,14 @@
+pe\edu\cibertec\dswii\u02\t05\model\producto\ObjectFactory.class
+pe\edu\cibertec\dswii\u02\t05\ws\endpoint\ProductoEndpoint.class
+pe\edu\cibertec\dswii\u02\t05\model\persona\GetPersonaRequest.class
+pe\edu\cibertec\dswii\u02\t05\model\producto\GetProductoRequest.class
+pe\edu\cibertec\dswii\u02\t05\model\persona\package-info.class
+pe\edu\cibertec\dswii\u02\t05\ws\endpoint\PersonaEndpoint.class
+pe\edu\cibertec\dswii\u02\t05\model\persona\Persona.class
+pe\edu\cibertec\dswii\u02\t05\model\producto\Producto.class
+pe\edu\cibertec\dswii\u02\t05\model\producto\GetProductoResponse.class
+pe\edu\cibertec\dswii\u02\t05\model\producto\package-info.class
+pe\edu\cibertec\dswii\u02\t05\ws\WebServiceConfig.class
+pe\edu\cibertec\dswii\u02\t05\model\persona\GetPersonaResponse.class
+pe\edu\cibertec\dswii\u02\t05\model\persona\ObjectFactory.class
+pe\edu\cibertec\dswii\u02\t05\SoapPersonServiceApplication.class

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v4.0.5 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.11.27 a las 09:27:10 AM PET
+  -->
+  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/persona-service">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.dswii.u02.t05.model.persona"/>
+    </schemaBindings>
+    <bindings scd="tns:GetPersonaRequest" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.model.persona.GetPersonaRequest"/>
+    </bindings>
+    <bindings scd="tns:GetPersonaResponse" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.model.persona.GetPersonaResponse"/>
+    </bindings>
+    <bindings scd="~tns:Persona" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.model.persona.Persona"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" if-exists="true" auto-acknowledge="true" xmlns:tns="http://t05.u02.dswii.cibertec.edu.pe/producto-service">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.dswii.u02.t05.model.producto"/>
+    </schemaBindings>
+    <bindings scd="tns:GetProductoRequest" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.model.producto.GetProductoRequest"/>
+    </bindings>
+    <bindings scd="tns:GetProductoResponse" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.model.producto.GetProductoResponse"/>
+    </bindings>
+    <bindings scd="~tns:Producto" if-exists="true" auto-acknowledge="true">
+      <class ref="pe.edu.cibertec.dswii.u02.t05.model.producto.Producto"/>
+    </bindings>
+  </bindings>
+</bindings>
+
